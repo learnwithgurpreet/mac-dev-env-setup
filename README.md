@@ -6,7 +6,7 @@
 
 First install brew on your MAC, The Missing Package Manager for macOS (or Linux) - I like this tag like 😎
 
-> Installation steps can be found here: https://brew.sh/
+> Installation steps can be found here: [Brew.sh](https://brew.sh/)
 
 ```bash
 brew install --cask iterm2
@@ -22,13 +22,13 @@ For XCode Command Line Tools do:
 xcode-select --install
 ```
 
-Install [https://ohmyz.sh/](oh-my-zsh)
+Install [oh-my-zsh](https://ohmyz.sh/)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Setup [https://github.com/romkatv/powerlevel10k#oh-my-zsh](Powerlevel10k) theme
+Setup [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh) theme
 
 1. Clone the repository
 
@@ -42,3 +42,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 - [.zshrc](.zshrc) - Zsh Shell Configuration
 - [nightking.itermcolors](nightking.itermcolors) - iTerm2 Color Scheme
+
+## Plugins
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
