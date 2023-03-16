@@ -39,8 +39,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 ### Update VSCode Terminal Font (Optional)
-Open `settings.json` of your vscode
-`"terminal.integrated.fontFamily": "MesloLGS NF"`
+Open `settings.json` of your vscode and add `"terminal.integrated.fontFamily": "MesloLGS NF"`
 
 ### Relevant Files
 
